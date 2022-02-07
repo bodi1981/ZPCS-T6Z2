@@ -89,7 +89,7 @@ namespace T6Z2
             this.Controls.Add(this.btnAdd);
             this.Name = "Main";
             this.Text = "Przęglądarka zdjęć";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pbPicture)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

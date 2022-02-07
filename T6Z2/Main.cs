@@ -61,7 +61,7 @@ namespace T6Z2
             btnRemove.Visible = false;
         }
 
-        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        private void Main_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (pbPicture == null || pbPicture.Image == null)
                 PicturePath = "";
